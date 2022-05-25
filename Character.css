@@ -111,16 +111,3 @@
 	#blue_Character:active {transform: scale(1.2);}
 	#pink_Character:active {transform: scale(1.2);}
 
-	.yellow_Character {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;}
-	.red_Character {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;}
-	.blue_Character {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;}
-	.green_Character {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;}
-	.pink_Character {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;}
-
-
-
-
-@keyframes motion {
-	0% {margin-top: 0px;}
-	100% {margin-top: 30px;}
-}
