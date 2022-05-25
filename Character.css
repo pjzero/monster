@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#character {
+		position: absolute;
+		width: 1920px;
+		height: 100%;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#n_2 {
+		fill: rgba(241,237,231,1);
+	}
+	.n_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+	}
+	#MONSTERS {
+		left: 70px;
+		top: 70px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -35px;
+		text-align: left;
+		font-family: NanumSquare_ac;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(65,55,45,1);
+	}
+	#yellow_Character {
+		position: absolute;
+		width: 263px;
+		height: 274px;
+		left: 328px;
+		top: 600px;
+		overflow: visible;
+	}
+	#red_Character {
+		position: absolute;
+		width: 261px;
+		height: 274px;
+		left: 633px;
+		top: 600px;
+		overflow: visible;
+		animation-delay: 0.2s;
+	}
+	#green_Character {
+		position: absolute;
+		width: 261px;
+		height: 274px;
+		left: 937px;
+		top: 600px;
+		overflow: visible;
+		animation-delay: 0.3s;
+	}
+	#blue_Character {
+		position: absolute;
+		width: 261px;
+		height: 274px;
+		left: 1241px;
+		top: 600px;
+		overflow: visible;
+		animation-delay: 0.4s;
+	}
+	#pink_Character {
+		position: absolute;
+		width: 261px;
+		height: 274px;
+		left: 1549px;
+		top: 600px;
+		overflow: visible;
+		animation-delay: 0.5s;
+	}
+	#Click_Monsters {
+		transform: matrix(1,0,0,1,1627,217) rotate(90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 331px;
+		white-space: nowrap;
+		line-height: 118px;
+		margin-top: -70px;
+		text-align: center;
+		font-family: NanumSquare_ac;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(65,55,45,1);
+		letter-spacing: 2px;
+	}
+
+	
+	#yellow_Character:active {transform: scale( 1.2 );}
+	#red_Character:active {transform: scale( 1.2 );}
+	#green_Character:active {transform: scale( 1.2 );}
+	#blue_Character:active {transform: scale(1.2);}
+	#pink_Character:active {transform: scale(1.2);}
+
