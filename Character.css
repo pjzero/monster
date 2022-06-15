@@ -1,0 +1,133 @@
+@charset "utf-8";
+body {width: 100%;
+	height: auto;
+        background-image: url('img/main_bar.gif');
+        background-repeat : no-repeat;}
+	
+#MONSTERS {
+		right:85%;
+		top: 70px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -35px;
+		text-align: left;
+		font-family: NanumSquare_ac;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 1.2rem;
+		color: rgba(65,55,45,1); }
+	
+		#Story {
+		right:30%;
+		top: 69px;
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -30px;
+		text-align: left;
+		font-family: Myriad Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(65,55,45,1);
+		letter-spacing: 1px;
+	}
+	#Friends {
+		right:17%;
+		top: 69px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -30px;
+		text-align: left;
+		font-family: Myriad Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(65,55,45,1);
+		letter-spacing: 1px;
+	}
+	#illustration {
+		right:7%;
+		top: 69px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -30px;
+		text-align: left;
+		font-family: Myriad Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(65,55,45,1);
+		letter-spacing: 1px;
+	}
+
+	#MONSTERS:active{color:#CE4847;}
+	#Story:active{color:#CE4847;}
+	#Friends:active{color:#CE4847;}
+	#illustration:active{color:#CE4847;}
+
+	#Story:active {transform: scale(0.8);}
+	#Friends:active {transform: scale(0.8);}
+	#illustration:active {transform: scale(0.8);}
+	#yellow_Character:active {transform: scale( 1.2 );}
+	#red_Character:active {transform: scale( 1.2 );}
+	#green_Character:active {transform: scale( 1.2 );}
+	#blue_Character:active {transform: scale(1.2);}
+	#pink_Character:active {transform: scale(1.2);}
+
+#yellow_Character {width: 150px;
+  height: auto !important;
+margin-top: 650px;
+margin-left: 170px;}
+#red_Character {width: 150px;
+  height: auto !important;}
+#green_Character {width: 150px;
+  height: auto !important;}
+#blue_Character {width: 150px;
+  height: auto !important;}
+#pink_Character {width: 150px;
+  height: auto !important;}
+
+@media screen and (min-width:1024px)
+{body {width: 5%;}
+	#Happy_birthday_Yellow {font-size:
+		5rem;
+		right:25%;}
+	#text {font-size:
+		2rem;
+	right:37%;}
+	#MONSTERS{right:92%;
+		font-size: 1.2rem;
+	}
+	#n_1 {width: 370px;
+		height: 76px;}
+#yellow_Character {width: 260px;
+  height: auto !important;
+	margin-top: 50px;
+	margin-left: 20px;}
+#red_Character {width: 260px;
+  height: auto !important;}
+#green_Character {width:260px;
+  height: auto !important;}
+#blue_Character {width: 260px;
+  height: auto !important;}
+#pink_Character {width: 260px;
+  height: auto !important;}
+	
+	
+
+.monsters_img {width: 1350px;
+margin-left: 450px;
+margin-top: 600px;}
+
