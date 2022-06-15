@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>story_2</title>
+<style type="text/css">
+	@import url("main_style.css");
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+		#Video {
+		fill: transparent;
+	}
+	.Video {
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#story_1{
+		position: absolute;
+		width: 100%;
+		height: auto;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#n_2 {
+		fill: rgba(241,237,231,1);
+	}
+	.n_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_ {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	
+		.yellow_move {width: 100%;
+	height: auto;}
+	
+	#MONSTERS {
+		right:85%;
+		top: 70px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		line-height: 26px;
+		margin-top: -35px;
+		text-align: left;
+		font-family: NanumSquare_ac;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 1.2rem;
+		color: rgba(65,55,45,1); }
+	
+	#bird {
+		fill: transparent;
+	}
+	.bird {
+		position: absolute;
+		overflow: visible;
+		width: 287px;
+		height: 209px;
+		left: 269px;
+		top: 369px;
+	}
+	#text {
+		left: 200px;
+		top: 100px;
+		position: absolute;
+		overflow: visible;
+		width: 657px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -30px;
+		text-align: right;
+		font-family: NanumSquare_ac;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1rem;
+		color: rgba(65,55,45,1);
+	}
+	
+		.next {width: 120px;
+	height: 50px;
+	background-color: #41372D;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 10px;
+	border-radius: 20px;
+	margin-left: 530px;
+	margin-top: 30px;}
+	
+	@media screen and (min-width:1024px)
+{body {width: 5%;}
+	#MONSTERS{right:92%;
+		font-size: 1.3rem;
+	}
+	#text{left: 1150px;
+	font-size: 2rem;
+	line-height: 52px;
+	margin-top: -20px;}
+	
+		.next {width: 180px;
+	height: 70px;
+	background-color: #41372D;
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 10px;
+	border-radius: 30px;
+	margin-left: 470px;}
+	
+</style>
+</head>
+<body>
+<div id="story_1">
+<video class="yellow_move" muted autoplay loop>
+    <source src="video/2장.mp4" type="video/mp4">
+  </video>
+	<div id="MONSTERS">
+		<a href="index.html"><span>MONSTERS</span></a>
+	</div>
+	<div id="text">
+		<span>목소리의 주인공은 빨강이었네요!<br/><br/>
+빨강이가 말했어요<br/>
+"다들 오늘 무슨 날인지는 알아?<br/>
+큰일이야 큰일, 오늘은 노랑이의 생일이라고!"</span>
+					<a href="story_3.html"><div class="next">다음</div></a>
+	</div>
+</div>
+</body>
+</html>
